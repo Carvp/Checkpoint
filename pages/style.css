@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#080808;
+    width: 99.99%;
+   height: 50px;
+  
+  }
+.logo{
+display: flex;
+    color: white;
+}
+  
+  
+.nav-link {
+  display: flex;
+  justify-content: space-around; 
+ 
+  border-radius: 20px; 
+  padding: 10px; 
+ }
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 10px; 
+}
+nav a:hover {
+  background-color: red;
+  border-radius: 52px;
+
+}
+nav a.active {
+  background-color: red; 
+  border-radius: 52px;
+}
+.redJP {
+     color: red; 
+    }
+  .banner-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  
+  }     
+
+  .banner-{
+  
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 210, 210);
+    padding: 5px;
+   
+  }
+  .banner- .RedText{
+    color: red;
+    
+  }
+  .banner- .BlackText{
+    color: black;
+    
+  }
+  .banner- p{
+    padding: 0px 2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+  .Information{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .Information h2{
+    padding: 10px;
+  }
+
+  .text-City{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .section-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.img-div  img {
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+ 
+  }
+
+
+
+
+
+  footer {
+    min-height: 10vh;
+    background-color: #080808;
+    
+}
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo-footer {
+  display: flex;
+    padding: 10px;
+
+}
+
+.titulo-footer  h2 {
+    color: white;
+}
+.suscribe-footer {
+    color: white;
+    padding: 10px;
+}
+.email-footer {
+    padding: 10px;
+}
+.email-footer  h3  a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 16px;
+}
+
+
+
+
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.List-Table{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.List{
+background-color: grey;
+width: 400px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+.List ul li{
+padding: 17px;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+th, td {
+  padding: 15px 22px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: grey;
+  color: white;
+}caption {
+  text-align: center;
+   background-color: black;
+   color: white;
+  
+}
+
+
